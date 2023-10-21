@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">PM1E10085</string>
+
+    <string-array name="list">
+        <item>Afganistán (93)</item>
+        <item>Albania (355)</item>
+        <item>Alemania (49)</item>
+        <item>Algeria (213)</item>
+        <item>Andorra (376)</item>
+        <item>Angola (244)</item>
+        <item>Antigua y Barbuda (1-268)</item>
+        <item>Arabia Saudita (966)</item>
+        <item>Argentina (54)</item>
+        <item>Armenia (374)</item>
+        <item>Australia (61)</item>
+        <item>Austria (43)</item>
+        <item>Azerbaiyán (994)</item>
+        <item>Bahamas (1-242)</item>
+        <item>Bangladés (880)</item>
+        <item>Barbados (1-246)</item>
+        <item>Baréin (973)</item>
+        <item>Bélgica (32)</item>
+        <item>Belice (501)</item>
+        <item>Benín (229)</item>
+        <item>Bolivia (591)</item>
+        <item>Brasil (55)</item>
+        <item>Canadá (1)</item>
+        <item>Chile (56)</item>
+        <item>Colombia (57)</item>
+        <item>Costa Rica (506)</item>
+        <item>Cuba (53)</item>
+        <item>Dinamarca (45)</item>
+        <item>Ecuador (593)</item>
+        <item>Egipto (20)</item>
+        <item>El Salvador (503)</item>
+        <item>España (34)</item>
+        <item>Estados Unidos (1)</item>
+        <item>Etiopía (251)</item>
+        <item>Filipinas (63)</item>
+        <item>Finlandia (358)</item>
+        <item>Francia (33)</item>
+        <item>Grecia (30)</item>
+        <item>Guatemala (502)</item>
+        <item>Guyana (592)</item>
+        <item>Haití (509)</item>
+        <item>Honduras (504)</item>
+        <item>Hungría (36)</item>
+        <item>India (91)</item>
+        <item>Indonesia (62)</item>
+        <item>Irán (98)</item>
+        <item>Irlanda (353)</item>
+        <item>Islandia (354)</item>
+        <item>Italia (39)</item>
+        <item>Jamaica (1-876)</item>
+        <item>Japón (81)</item>
+        <item>Jordania (962)</item>
+        <item>Kenia (254)</item>
+        <item>Laos (856)</item>
+        <item>Lesoto (266)</item>
+        <item>Liberia (231)</item>
+        <item>Luxemburgo (352)</item>
+        <item>Madagascar (261)</item>
+        <item>Malasia (60)</item>
+        <item>Marruecos (212)</item>
+        <item>México (52)</item>
+        <item>Nicaragua (505)</item>
+        <item>Nigeria (234)</item>
+        <item>Noruega (47)</item>
+        <item>Panamá (507)</item>
+        <item>Paraguay (595)</item>
+        <item>Perú (51)</item>
+        <item>Polonia (48)</item>
+        <item>Portugal (351)</item>
+        <item>Reino Unido (44)</item>
+        <item>República Dominicana (1-809)</item>
+        <item>Rusia (7)</item>
+        <item>Suecia (46)</item>
+        <item>Uruguay (598)</item>
+        <item>Venezuela (58)</item>
+
+    </string-array>
+</resources>

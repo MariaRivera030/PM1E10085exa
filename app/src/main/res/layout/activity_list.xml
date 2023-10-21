@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/btnregresar"
+            android:layout_width="100dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="3dp"
+            android:text="Atras"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+            android:id="@+id/txtcid"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Buscar"
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toBottomOf="@+id/btnregresar"
+            tools:layout_editor_absoluteX="38dp" />
+
+    <ListView
+            android:id="@+id/listaContactos"
+            android:layout_width="380dp"
+            android:layout_height="409dp"
+            android:layout_marginTop="20dp"
+            android:choiceMode="singleChoice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtcid" />
+
+    <Button
+        android:id="@+id/btnimagen"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="20dp"
+        android:text="Ver Imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btncompartir"
+        app:layout_constraintTop_toBottomOf="@+id/listaContactos" />
+
+    <Button
+        android:id="@+id/btncompartir"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="15dp"
+        android:text="Compartir Contacto"
+        app:layout_constraintEnd_toStartOf="@+id/btnimagen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listaContactos" />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="Actualizar Contacto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btneliminar"
+        app:layout_constraintTop_toBottomOf="@+id/btnimagen" />
+
+    <Button
+        android:id="@+id/btneliminar"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="Eliminar Contacto"
+        app:layout_constraintEnd_toStartOf="@+id/btnactualizar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncompartir" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
